@@ -1,5 +1,5 @@
 import { Stack } from 'expo-router'
-import '../../global.css'
+import '@/global.css'
 import { HeroUINativeProvider } from 'heroui-native'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 
