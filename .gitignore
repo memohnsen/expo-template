@@ -2,6 +2,7 @@
 
 # dependencies
 node_modules/
+bun.lock
 
 # Expo
 .expo/
@@ -19,6 +20,7 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
+playstore.json
 
 # Metro
 .metro-health-check*
@@ -34,12 +36,9 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
 
 # typescript
 *.tsbuildinfo
 
 app-example
-
-# generated native folders
-/ios
-/android
